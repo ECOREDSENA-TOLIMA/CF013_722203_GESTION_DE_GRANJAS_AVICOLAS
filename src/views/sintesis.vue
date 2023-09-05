@@ -3,13 +3,13 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
+    p El componente formativo Protocolos de bioseguridad y control de actividades anexas de producción, abarca temas relacionados al manejo de la bioseguridad en avicultura, su implementación y ejecución, permitiendo el logro de un estatus sanitario que garantice la productividad y rentabilidad de este tipo de explotaciones, por esto es importante implementar protocolos que permitan estandarizar los procesos, controlando y garantizando el cumplimiento a la normatividad vigente.
     p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Síntesis del componente formativo Protocolos de bioseguridad y control de actividades anexas de producción, que abarca temas relacionados al manejo de la bioseguridad en avicultura.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
