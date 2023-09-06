@@ -211,13 +211,674 @@
 
     p.mb-5(data-aos="fade-down") A continuación, se relacionan los tipos de muestreo y muestras que se toman para el análisis del agua con sus características: 
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-6.col-lg-4.col-12.mb-3(data-aos="fade-right")
+        img(src='@/assets/curso/temas/tema1/tema1-17.png' alt='')
+        .div-footer.p-3
+          .h4.text-center.mb-0 Muestreo manual
+      .col-md-6.col-lg-4.col-12.mb-3(data-aos="fade-down")
+        img(src='@/assets/curso/temas/tema1/tema1-18.png' alt='')
+        .div-footer.p-3
+          .h4.text-center.mb-0 Muestreo automático
+      .col-md-6.col-lg-4.col-12.mb-3(data-aos="fade-left")
+        img(src='@/assets/curso/temas/tema1/tema1-19.png' alt='')
+        .div-footer.p-3
+          .h4.text-center.mb-0 Muestreo mixto
+      .col-md-6.col-lg-4.col-12.mb-3(data-aos="fade-right")
+        img(src='@/assets/curso/temas/tema1/tema1-20.png' alt='')
+        .div-footer.p-3
+          .h4.text-center.mb-0 Muestra simple o puntual
+      .col-md-6.col-lg-4.col-12.mb-3(data-aos="fade-down")
+        img(src='@/assets/curso/temas/tema1/tema1-21.png' alt='')
+        .div-footer.p-3
+          .h4.text-center.mb-0 Muestra compuesta
+      .col-md-6.col-lg-4.col-12.mb-3(data-aos="fade-left")
+        img(src='@/assets/curso/temas/tema1/tema1-22.png' alt='')
+        .div-footer.p-3
+          .h4.text-center.mb-0 Muestra integrada
+
+    .cajon.color-primario.p-4.mb-5(data-aos="fade-down-left")
+      p.mb-0 Respecto a los análisis fisicoquímicos Fenavi - Fonav (2018) afirma que mediante este tipo de prueba se busca determinar “la presencia de sustancias orgánicas e inorgánicas que puedan producir efectos nocivos sobre los humanos y las aves, o que alteren la eficiencia de los diferentes procesos realizados en la granja. Paralelamente, permite determinar las condiciones organolépticas” (p. 9), este tipo de muestras se toman en frascos de vidrio o plásticos de boca ancha, previamente lavados y con capacidad de 2 litros, se tendrá en cuenta el sitio donde se tome la muestra de acuerdo con el tipo de fuente y los frascos se llenan completamente para evitar la presencia de burbujas que alteren el resultado de la prueba.
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down-right")
+      .col-md-3.col-lg-2.col-12
+        img(src='@/assets/curso/temas/tema1/tema1-23.svg' alt='')
+      .col-md-9.col-lg-10.col-12
+        p La contaminación microbiana del agua puede provenir de la fuente o también en sus sistemas de transporte o almacenamiento dentro de la instalación, el agua puede contener bacterias, virus, protozoos, patógenos y huevos de helmintos intestinales, la presencia de estos microorganismos afecta la productividad de las aves alojadas en la explotación avícola, es por estos que la toma de la muestra de agua para este tipo de análisis de laboratorio debe hacerse en recipientes estériles y evitando contaminación cruzada que altere los resultados.
+        p Los análisis toxicológicos se realizan para determinar la presencia y concentración de compuestos químicos tóxicos en el agua, causantes de enfermedades en aves y personas, para la toma de las diferentes muestras se requiere cumplir con algunos requerimientos relacionados con el tipo de recipientes, rotulados, forma de tomar la muestra, preservación y envío.
+
+    p.mb-5(data-aos="fade-down") Respecto a los recipientes empleados para la toma de muestras de agua, los más empleados son los de vidrio y polietileno. Los de vidrio tienen la ventaja de que el estado de superficie interior es fácilmente visible, los de polietileno no son tan susceptibles al peligro de rotura, por esto es de suma importancia la selección correcta del envase a utilizar, porque debe garantizar que la muestra no se contamine generando resultados erróneos, en la siguiente imagen se observan los tipos de recipientes para la toma de muestras de análisis fisicoquímicos y microbiológicos, ver figura 2.
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12(data-aos="fade-right")
+        .titulo-sexto.color-primario
+          p.titulo.pb-0.mb-0 #[b Figura 2.] #[i Recipientes para la toma de muestras de análisis fisicoquímicos y microbiológicos] 
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-24.svg', alt='Recipiente de 1000 ml de plástico o vidrio para los parámetros de DBO5, sólidos disueltos totales, turbiedad, nitratos, PH y fosfatos. Recipiente de 250 ml de plástico o vidrio para la DQO. Recipiente de 100 ml de vidrio, para el análisis de coliformes fecales. Recipiente Winkler, para el análisis de oxígeno disuelto.')  
+          figcaption.mt-2 Nota. Tomado de Hernández Pérez (2021).
+
+    p.mb-5(data-aos="fade-down") A continuación, se describen los requerimientos de envase, cantidad de muestra y recomendaciones para la toma de muestra.
 
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-md-12(data-aos="fade-right")
+        .titulo-sexto.color-primario.mb-1
+          p.titulo.pb-0.mb-0 #[b Tabla 2.] #[i Requisitos para la toma de muestras de agua para el análisis de laboratorio] 
+        .tabla-b.color-acento-contenido.mb-5
+          table(style="min-width:auto")
+            caption Nota. Adaptado de Hernández (2021).
+            thead
+              tr.cabecera-a.text-center
+                th(style="width:18%") Tipo de análisis 
+                th Recipiente 
+                th(style="width:20%") PEPS  
+                th Promedio ponderado  
+            tbody
+              tr
+                th Fisicoquímico
+                td.p-2 Vidrio o plástico no tóxico, esterilizado, boca ancha, tapa protectora y cierre hermético.
+                td.p-2 No inferior a 2 litros.
+                td.p-2
+                  p.mb-0 En fuentes superficiales (ríos, quebradas, nacimientos) se toma la muestra a contracorriente, en sitios representativos del cauce y a diferentes profundidades.
+                  p.mb-0 En la planta de tratamiento se tomará del agua que ya esté tratada para revisar la efectividad del proceso.
+                  p Evitar el contacto del agua con las tapas metálicas o plásticas.
+              tr
+                th Bacteriológico
+                td.p-2 Vidrio o plástico, boca ancha, esterilizado.
+                td.p-2 250 a 500 ml.
+                td.p-2 
+                  p Los envases deben estar esterilizados y evitar su contaminación. Tener en cuenta el sitio donde se van a tomar la muestra (grifos), dejar salir los primeros chorros de agua y luego tomar la muestra para evitar su contaminación. Muestras tomadas de tanques o reservorios de ríos, quebradas, lagos, etc. y desinfectar el grifo para evitar la contaminación. En aguas cloradas adicionar tiosulfato de sodio para neutralizar el cloro.  Evitar temperaturas superiores a 6°C porque fomentan la multiplicación de los microorganismos de la muestra.
+              tr
+                th Toxicológico
+                td.p-2 Frascos de vidrio.
+                td.p-2 500 a 1000 ml.
+                td.p-2 
+                  p Se debe conocer el historial del uso de sustancias químicas en la zona donde se tome la muestra, seleccionar en el cuerpo de agua un área representativa alejada de orillas, a una profundidad media entre el lecho y la superficie, el envase se debe lavar varias veces con el agua a analizar, luego tomar la muestra y sellar el envase. Se sugiere la toma de submuestras para ser mezcladas y obtener una muestra definitiva para ser llevada al laboratorio. En lagos o estanques se toman muestras en diferentes profundidades.
 
+    .tarjeta.color-secundario.p-4.mb-5(data-aos="fade-down")
+      .row.justify-content-center.align-items-center
+        .col-md-6.col-12
+          p Todas las muestras requieren ser registradas en una planilla de control en la que se evidencie las condiciones del entorno donde se recolectó la muestra, es decir, registrar la temperatura. Las etiquetas de los envases con las muestras deben contener los siguientes datos de identificación:
+        .col-md-6.col-12
+          ul.lista-ul--color
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Lugar de la toma.
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Fecha de toma.
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Hora.
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Temperatura al momento de la toma.
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Nombre de la persona que realiza la toma.
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Demás datos pertinentes que considere la organización que debe contener la etiqueta.
 
+    p.mb-5(data-aos="fade-down") Las muestras deben estar refrigeradas para su conservación, evitando su congelación. Se debe transportar lo más rápido posible al laboratorio para su análisis.   
 
+    Separador
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.4 Métodos de tratamiento 
 
+    p.mb-5(data-aos="fade-down") Según las recomendaciones de Fenavi (2018) después de que se determine la calidad de agua con la que dispone el productor mediante los análisis de laboratorio, procede a realizar los tratamientos pertinentes para ofertar agua de calidad a las aves. El agua puede ser potabilizada mediante diferentes tratamientos que se relacionan a continuación:
+    
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down-right")
+      .col-md-4.col-lg-3.col-12
+        img(src='@/assets/curso/temas/tema1/tema1-25.png' alt='')
+      .col-md-8.col-lg-9.col-12
+        LineaTiempoD.color-secundario
+          div(numero="1" titulo="Tratamiento de cloración") 
+            p Procedimiento comúnmente usado y junto con el lavado diario de bebederos se traducen como las medidas más eficaces para controlar la carga microbiana.
+            p El efecto deseado de este tratamiento se logra cuando la concentración del cloro sea de 3 ppm a nivel de los bebederos.
+            p Aspectos a tener en cuenta: aumenta el pH del agua, disminuye su efectividad en presencia de materia orgánica, es altamente volátil.
+          div(numero="2" titulo="Tratamiento de peroxidación") 
+            p El uso de peróxido actúa contra bacterias, esporas, virus y hongos cuando se emplea en las dosificaciones correctas.
+          div(numero="3" titulo="Filtros de arena y carbón activados") 
+            p Los filtros de arena son lentos y tienen cierta acción eliminadora de bacterias, pero necesitan mucho espacio para la purificación de aguas; estos filtros retienen tierra, arena y algunas impurezas, pero dejan pasar microorganismos y sustancias químicas, por lo cual son utilizados mayormente para retener impurezas.
+            p El carbón activado se utiliza como filtro y su acción es eliminar olor, sabor y color del agua tratada.
+          div(numero="4" titulo="Ozono") 
+            p Al entrar en contacto con sustancias oxidables, se descompone rápidamente en oxígeno naciente, el cual es capaz de destruir la materia orgánica. Aunque no deja olor, sí deja algo de sabor, aunque este no sea desagradable.
+          div(numero="5" titulo="Coagulación y floculación") 
+            p Consiste en la aplicación de productos químicos para desestabilizar sustancias que se encuentran suspendidas en el agua, produciendo una aglomeración de estas que forman partículas más grandes que se van a sedimentar posteriormente.
+            p Este proceso de coagulación se lleva a cabo en dos fases que se llaman coagulación y floculación.
+            p Los coagulantes comúnmente usados incluyen las sales de aluminio o de hierro y el más ampliamente utilizado es el sulfato de aluminio.
+
+    p.mb-4(data-aos="fade-down") El tratamiento o potabilización del agua lo define el Ministerio de Protección Social y el Ministerio de Ambiente, Vivienda y Desarrollo Territorial (2007)  como “el conjunto de operaciones y procesos que se realizan sobre el agua cruda, con el fin de modificar sus características físicas, químicas y microbiológicas, para hacerla apta para el consumo humano” (p.2), teniendo en cuenta que el agua que se suministra a las aves en las explotaciones avícolas debe ser de excelente calidad y requiere la implementación de métodos para su tratamiento.  
+    p.mb-5(data-aos="fade-down") El tratamiento más utilizado en este tipo de explotaciones tiene cuatro fases que se relacionan en el siguiente esquema interactivo:
+
+    .h4.text-center.mb-4(data-aos="fade-down-right") Fases de tratamiento del agua
+
+    PasosA.color-primario.mb-5(tipo="n" data-aos="fade-down-right")
+      div
+        p #[b Coagulación:] empleado en el tratamiento del agua se refiere al fenómeno de desestabilización de las partículas coloidales que puede conseguirse por medio de la neutralización de sus cargas eléctricas, con este procedimiento se pretende la aglomeración de las sustancias que se encuentran suspendidas en el agua con la aplicación de coagulantes como el sulfato de aluminio, cloruro de aluminio, cloruro férrico, sulfato férrico, sulfato ferroso, sulfato cúprico, ozono, entre otros.
+      div.text-start
+        p #[b Floculación:] es descrita por Andia (2020) como el proceso que consiste en “la agitación de la masa coagulada que sirve para permitir el crecimiento y aglomeración de los flósculos recién formados con la finalidad de aumentar el tamaño y peso necesario para sedimentar con facilidad” (p.33), la floculación es la siguiente fase para el tratamiento del agua, cuyo propósito es lograr que las partículas suspendidas en el agua se junten y se puedan sedimentar.
+      div
+        p #[b Sedimentación:] es la tercera fase empleada en las granjas avícolas para el tratamiento del agua, de acuerdo con Pérez (2005) la define como “el proceso natural por el cual las partículas más pesadas del agua que se encuentra en su seno en suspensión, son removidas por la acción de la gravedad” (p.2), es decir, todas las partículas que estén suspendidas en el agua ha potabilizar serán llevadas al fondo del tanque o reservorio  por el efecto de la gravedad al ser más pesadas que el agua, permitiendo de esta forma separar las impurezas y removerlas.
+      div.text-start
+        p #[b Filtración:] se utiliza para eliminar las partículas que no se sedimentaron, al respecto la Academia Nacional de Ciencias (2017), afirma que los sistemas de filtración “tratan el agua pasándola a través de lechos de materiales granulares (por ejemplo, arena) que retira y retiene contaminantes”. Además, este proceso puede ayudar a la eliminación de bacterias, virus y protozoos.
+      div
+        p #[b Desinfección:] en esta etapa se aplica un desinfectante que cumpla con unas características especiales relacionadas con su efectividad como bactericida, no debe afectar las propiedades organolépticas del agua, es de fácil efectividad para eliminar el biofilm; el desinfectante que es más empleado en las granjas avícolas para el tratamiento del agua es el cloro (hipoclorito de sodio), el cual debe ser dosificado de acuerdo con el volumen del agua a tratar y su concentración.
+
+    p(data-aos="fade-down") A continuación, se presenta un ejemplo:
+    p.mb-5(data-aos="fade-down") Se requiere la desinfección de 3.000 litros de agua, se cuenta con hipoclorito de sodio líquido al 12 %, y de acuerdo con las recomendaciones del fabricante se deben emplear 5 ppm. Para realizar el cálculo se emplea la siguiente fórmula:
+
+    .tarjeta.color-acento-botones.p-4.mb-5(data-aos="fade-down")
+      div.mb-3
+        mfrac 
+          mo Cantidad de producto (en gramos o cc) =
+        math
+          mfrac
+            mrow
+              mo volumen de agua a tratar x dosis recomendada producto
+            mrow
+              mo Concentración del producto x 10
+      div.mb-3
+        mfrac 
+          mo Cantidad de producto (en gramos o cc) =
+        math
+          mfrac
+            mrow
+              mo 3.000 litros x 5 ppm
+            mrow
+              mo 12 x 10
+      div.mb-3
+        mfrac 
+          mo Cantidad de producto (en gramos o cc) =
+        math
+          mfrac
+            mrow
+              mo 3.000 litros x 5 ppm
+            mrow
+              mo 120
+      div.mb-3
+        mfrac 
+          mo Cantidad de producto (en gramos o cc) = 25
+
+    p.mb-5(data-aos="fade-down") Para profundizar en el tema se invita al aprendiz a ver los videos que se comparten en el material complementario de este componente formativo. 
+
+    .row.justify-content-center.align-items-center.mb-4.tarj.tarjeta--gris(data-aos="fade-down") 
+      .col-md-8.col-lg-7.col-12
+        p Es importante que a pesar de realizar un excelente tratamiento del agua tener en cuenta que, si los sistemas de almacenamiento y conducción no se encuentran limpios, esto no servirá de nada, por lo cual es de vital importancia que los procedimientos operativos establecidos para este propósito se realicen con la periodicidad propuesta en los mismos para reducir la presencia de #[em biofilm], y las posibilidades de contaminación del agua en tuberías y tanques de almacenamiento.
+      .col-md-4.col-lg-5.col-12
+        .py-3
+          img(src='@/assets/curso/temas/tema1/tema1-26.png' alt='')
       
+    Separador
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.5 Fichas de registro de las actividades de desinfección
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down") 
+      .col-md-4.col-lg-3.col-12
+        img(src='@/assets/curso/temas/tema1/tema1-27.png' alt='')
+      .col-md-8.col-lg-9.col-12
+        p Cada una de las actividades establecidas en los Procedimientos Operativos Estandarizados (POE), diseñados para el tratamiento del agua en las explotaciones avícolas, deben estar de acuerdo con lo establecido en los protocolos de la organización y registrados en los formatos diseñados para tal propósito. La información sobre las actividades de desinfección y tratamiento del agua deben realizarse y registrarse en el momento que se realicen, con la información recolectada le permite al productor realizar la toma de decisiones y ajustes a que tenga lugar de acuerdo con las circunstancias que se estén presentando en la explotación avícola, los registros son un apoyo de gran valor para el correcto funcionamiento de la granja.
+        p De acuerdo con las resoluciones de bioseguridad para las granjas avícolas los formatos requieren contener los siguientes ítems:
+
+    .tarjeta.color-acento-botones.p-4.mb-5(data-aos="fade-down")
+      .row.justify-content-center.align-items-center
+        .col-md-11.col-lg-9.col-12
+          ul.lista-ul--color
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Nombre de la empresa.
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Nombre de la granja avícola biosegura (pollo, aves de postura y/o levante, material genético).
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Identificación del formato.
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Fecha de diligenciamiento.
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Nombre y firma del responsable.
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Observaciones.
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Nombre del producto empleado para la desinfección del agua y su dosificación.
+            li.lista-custom
+              i
+                img(src='@/assets/curso/temas/ico-huevo.svg')
+              span Además de la información que considere pertinente la organización que se registre.
+            
+    .cajon-b.color-acento-contenido.p-3.mb-4(data-aos="fade-down")
+      p.mb-4 A continuación, se presentan dos ejemplos de formatos, los cuales son sugeridos para el registro del tratamiento del agua y uso de las sustancias químicas en el proceso de desinfección:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-11(data-aos="fade-right")
+        .titulo-sexto.color-primario.mb-1
+          p.titulo.pb-0.mb-0 #[b Tabla 3.] #[i Formato para el registro del tratamiento del agua en granjas avícolas] 
+        img(src='@/assets/curso/temas/tema1/tabla-3.png')
+
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-md-12(data-aos="fade-right")
+        .titulo-sexto.color-primario.mb-1
+          p.titulo.pb-0.mb-0 #[b Tabla 4.] #[i Formato para el registro del control de sustancias químicas en el proceso de limpieza y desinfección en granjas avícolas] 
+        .tabla-b.color-acento-contenido.mb-5
+          table(style="min-width:auto")
+            thead.text-small
+              tr.cabecera-a.text-center
+                th(colspan="3") AVÍCOLA EL POLLITO
+                th(colspan="4") CONTROL SUSTANCIAS QUÍMICAS EN EL PROCESO DE LIMPIEZA Y DESINFECCIÓN
+                th(colspan="2") CÓDIGO: formato 3
+                th(colspan="3") VERSIÓN: 2 
+            tbody.text-small
+              tr.text-center
+                td.cabecera-b.p-2(rowspan="2") LUGAR
+                td.cabecera-b.p-2(rowspan="2") ACTIVIDAD
+                td.cabecera-b.p-2(rowspan="2") DESCRIPCIÓN GENERAL
+                td.cabecera-b.p-2(colspan="2") TIPO DE ACTIVIDAD
+                td.cabecera-b.p-2(rowspan="2") FRECUENCIA DE ACTIVIDAD
+                td.cabecera-b.p-2(rowspan="2") SUSTANCIA INDICADA PARA EL LAVADO Y/O DESINFECCIÓN
+                td.cabecera-b.p-2(rowspan="2") DOSIS
+                td.cabecera-b.p-2(rowspan="2") NOMBRE COMERCIAL
+                td.cabecera-b.p-2(rowspan="2") FICHA TÉCNICA (SI/NO)
+                td.cabecera-b.p-2(rowspan="2") HOJA DE SEGURIDAD (SI/NO)
+                td.cabecera-b.p-2(rowspan="2") OBSERVACIONES O RECOMENDACIONES
+              tr.text-center
+                td.cabecera-b.p-2 L
+                td.cabecera-b.p-2 D
+              tr 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0
+                td.py-3.px-0
+                td.py-3.px-0
+              tr 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0
+                td.py-3.px-0
+                td.py-3.px-0
+              tr 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0
+                td.py-3.px-0
+                td.py-3.px-0
+              tr 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0
+                td.py-3.px-0
+                td.py-3.px-0
+              tr 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0
+                td.py-3.px-0
+                td.py-3.px-0
+              tr 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0 
+                td.py-3.px-0
+                td.py-3.px-0
+                td.py-3.px-0
+
+    Separador
+    #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.6 Interpretación de los resultados del análisis de la calidad del agua
+    
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-down")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-28.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Los diferentes análisis de laboratorio del agua evalúan la presencia de ciertos elementos o microorganismos en ella y permiten al productor tomar las decisiones pertinentes para realizar los correctivos y ofrecer agua de excelente calidad a las aves de la explotación avícola que van a permitir mejorar las condiciones sanitarias y productivas.
+          br
+          br 
+          | A nivel microbiológico según Fenavi (2018), la calidad del agua se ve afectada por “la contaminación microbiológica que puede originarse en bacterias, virus o parásitos y llegan a generar problemas sanitarios agudos a las aves” (p.6), esta contaminación se encuentra presente en las heces y para el caso de aguas expuestas a excretas de animales y seres humanos.
+
+    .tarjeta.color-primario.basico.p-3.mb-5(data-aos="fade-down")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/componentes/descargar.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-1 Anexo_1_agentes_microbiologicos.pdf
+              p.text-small Agentes microbiológicos 
+            .col-sm-auto
+              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_1_agentes_microbiologicos.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
+
+    p.mb-3(data-aos="fade-down") En el análisis fisicoquímico Fenavi (2018), destaca los parámetros que se buscan en este tipo de pruebas para medirlas como “turbidez, color, olor y pH del agua, permitiendo identificar elementos que puedan perjudicar el rendimiento zootécnico de las aves” (p.6).
+    p.mb-5(data-aos="fade-down") En la siguiente imagen interactiva se describen los principales elementos que se deben analizar en las pruebas fisicoquímicas y su efecto en las aves:
+
+    .h4.text-center.mb-4(data-aos="fade-down") Elementos fisicoquímicos para el análisis del agua y su efecto en las aves
+
+    ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-down")
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/tema1/tema1-info-2.svg', alt='')
+      .tarjeta.color-primario.basico.p-3(x="14%" y="55%" numero="1")
+        h4 Nitratos y nitritos 
+        p Causan problemas digestivos, disminución del peso del huevo, disminución de la ganancia de peso y disminución de la capacidad de transportar oxígeno en la sangre.
+      .tarjeta.color-primario.basico.p-3(x="35%" y="20%" numero="2")
+        h4 Hierro
+        p Ocasiona obstrucción de conducciones y disminución de la ganancia de peso (valores muy altos).
+      .tarjeta.color-primario.basico.p-3(x="12%" y="75%" numero="3")
+        h4 Sulfatos
+        p Efecto laxante y mala conversión alimenticia.
+      .tarjeta.color-primario.basico.p-3(x="50%" y="58%" numero="4")
+        h4 pH alto
+        p Debilita el efecto del cloro y predispone la presencia de biofilm en las conducciones.
+      .tarjeta.color-primario.basico.p-3(x="85%" y="25%" numero="5")
+        h4 Dureza
+        p Representa la presencia de sales de calcio y magnesio, a pesar de que no afecta la salud de las aves. Cuando se presentan niveles altos puede interferir con la eficacia de los tratamientos con antibióticos; además, puede causar obstrucción de las tuberías de los bebederos e inhibir la acción de detergentes que se utilizan en labores de limpieza.
+
+    p.mb-3(data-aos="fade-down") Para las pruebas toxicológicas se consideran en los análisis verificar la presencia o no de algunos elementos tóxicos en el agua que beben las aves, como el arsénico, cadmio, plomo, benceno y tricloroetileno, estos son solo algunos de los principales agentes contaminantes que pueden encontrarse en el agua, los cuales pueden asociarse al uso inadecuado de pesticidas y que con poca frecuencia son monitoreados. 
+    p.mb-5(data-aos="fade-down") Teniendo en cuenta que el agua suministrada a las aves debe cumplir con la Resolución 2115 de 2007, emitida por el Ministerio de Salud y Protección Social y el Ministerio de Ambiente y Desarrollo Sostenible, en la cual se establecen las características físicas y químicas del agua para el consumo humano, que igual aplica para la producción avícola del país. En la siguiente tabla se señalan las características físicas que debe cumplir para el consumo humano.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-10(data-aos="fade-right")
+        .titulo-sexto.color-primario.mb-1
+          p.titulo.pb-0.mb-0 #[b Tabla 5.] #[i Características físicas del agua a cumplir] 
+        .tabla-b.color-acento-contenido
+          table(style="min-width:auto")
+            caption Nota. Adaptado del Ministerio de Salud y Protección Social y el Ministerio de Ambiente y Desarrollo Sostenible (2007).
+            thead
+              tr.cabecera-a.text-center
+                th Características físicas
+                th Expresadas como 
+                th Valor máximo aceptable
+            tbody
+              tr.text-center
+                th Color aparente
+                td.p-2 Unidades de Platino Cobalto (UPC).
+                td.p-2 15
+              tr.text-center
+                th Olor y sabor
+                td.p-2 Aceptable o no aceptable.
+                td.p-2 Aceptable
+              tr.text-center
+                th Turbiedad
+                td.p-2 Unidades nefelométricas de turbiedad (UNT).
+                td.p-2 2
+
+    p.mb-5(data-aos="fade-down") Con relación a las características químicas se debe contemplar la presencia de algunos elementos o compuestos químicos diferentes a plaguicidas, que puedan tener efectos negativos para la salud, en la siguiente tabla se presentan las características químicas que tienen reconocido efecto adverso en la salud humana y que también son aplicables a la industria avícola, en ella se relacionan los principales elementos químicos que pueden estar presentes en el agua que se bebe.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-10(data-aos="fade-right")
+        .titulo-sexto.color-primario.mb-1
+          p.titulo.pb-0.mb-0 #[b Tabla 6.] #[i Características químicas que tienen reconocido efecto adverso en la salud humana] 
+        .tabla-b.color-acento-contenido
+          table(style="min-width:auto")
+            caption Nota. Adaptado del Ministerio de Salud y de Protección Social y del Ministerio de Ambiente y Desarrollo Sostenible (2007).
+            thead
+              tr.cabecera-a.text-center
+                th Elementos, compuestos químicos y mezclas de compuestos químicos, diferentes a los plaguicidas y a otras sustancias
+                th Expresados como
+                th Valor máximo aceptable (mg/L)
+            tbody
+              tr.text-center
+                th Antimonio
+                th Sb
+                th 0.02
+              tr.text-center
+                th Arsénico
+                th As
+                th 0.01
+              tr.text-center
+                th Bario
+                th Ba
+                th 0.7
+              tr.text-center
+                th Cadmio
+                th Cd
+                th 0.003
+              tr.text-center
+                th Cianuro libre y disociable
+                th CN
+                th 0.05
+              tr.text-center
+                th Cobre
+                th Cu
+                th 1.0
+              tr.text-center
+                th Cromo total
+                th Cr
+                th 0.05
+              tr.text-center
+                th Mercurio
+                th Hg
+                th 0.001
+              tr.text-center
+                th Níquel
+                th Ni
+                th 0.02
+              tr.text-center
+                th Plomo
+                th Pb
+                th 0.01
+              tr.text-center
+                th Selenio
+                th Se
+                th 0.01
+              tr.text-center
+                th Trihalometanos totales
+                th THMs
+                th 0.2
+              tr.text-center
+                th Hidrocarburos aromáticos policíclicos (HAP)
+                th HAP
+                th 0.01
+
+    p.mb-5(data-aos="fade-down") Además, en el Artículo 6 de la Resolución 2115 se establecen las características químicas que tienen implicaciones sobre la salud humana, las cuales se presentan en la siguiente tabla donde están relacionados los elementos o sustancias químicas que afectan la salud si están presentes en el agua de consumo humano o avícola.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-10(data-aos="fade-right")
+        .titulo-sexto.color-primario.mb-1
+          p.titulo.pb-0.mb-0 #[b Tabla 7.] #[i Características químicas que tienen implicaciones sobre la salud humana] 
+        .tabla-b.color-acento-contenido
+          table(style="min-width:auto")
+            caption Nota. Adaptado del Ministerio de Salud y de Protección Social y del Ministerio de Ambiente y Desarrollo Sostenible (2007).
+            thead
+              tr.cabecera-a.text-center
+                th Elementos, compuestos químicos y mezclas de compuestos químicos, que tienen implicaciones sobre la salud humana
+                th Expresados como
+                th Valor máximo aceptable (mg/L)
+            tbody
+              tr.text-center
+                th Carbono orgánico total
+                th COT
+                th 5.0
+              tr.text-center
+                th Nitritos
+                th NO#[sub 2]
+                th 0.1
+              tr.text-center
+                th Nitratos
+                th NO#[sub 3]
+                th 10
+              tr.text-center
+                th Floruros
+                th F
+                th 1.0
+
+    p.mb-5(data-aos="fade-down") En el Artículo 7 de la Resolución 2115 se presentan otras características que tienen consecuencias económicas e indirectas en la salud, las cuales se relacionan en la siguiente tabla con los valores máximos aceptados para estos elementos y compuestos químicos.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-10(data-aos="fade-right")
+        .titulo-sexto.color-primario.mb-1
+          p.titulo.pb-0.mb-0 #[b Tabla 8.] #[i Características químicas que tienen mayores consecuencias económicas e indirectas sobre la salud humana] 
+        .tabla-b.color-acento-contenido
+          table(style="min-width:auto")
+            caption Nota. Adaptado del Ministerio de Salud y de Protección Social y del Ministerio de Ambiente y Desarrollo Sostenible (2007).
+            thead
+              tr.cabecera-a.text-center
+                th Elementos, compuestos químicos que tienen mayores consecuencias económicas e indirectas sobre la salud humana
+                th Expresados como
+                th Valor máximo aceptable (mg/L)
+            tbody
+              tr.text-center
+                th Calcio
+                th Ca
+                th 60
+              tr.text-center
+                th Alcalinidad total
+                th CaCo#[sub 3]
+                th 200
+              tr.text-center
+                th Cloruros
+                th Cl#[sup -]
+                th 250
+              tr.text-center
+                th Aluminio
+                th Al#[sup 3+]
+                th 0.2
+              tr.text-center
+                th Dureza total
+                th CaCO#[sub 3]
+                th 300
+              tr.text-center
+                th Hierro total
+                th Fe
+                th 0.3
+              tr.text-center
+                th Magnesio
+                th Mg
+                th 36
+              tr.text-center
+                th Manganeso
+                th Mn
+                th 0.1
+              tr.text-center
+                th Molibdeno
+                th Mo
+                th 0.07
+              tr.text-center
+                th Sulfatos
+                th SO#[sub 4] #[sup 2-]
+                th 250
+              tr.text-center
+                th Zinc
+                th Zn
+                th 3
+              tr.text-center
+                th Fosfatos
+                th Po#[sub 4] #[sup 3-]
+                th 0.5
+
+    p.mb-5(data-aos="fade-down") En el Artículo 11 de la Resolución 2115 se describen las características microbiológicas, las técnicas para el análisis y los valores máximos permisibles para el agua con destino para el consumo humano. En la siguiente tabla se presentan estos parámetros establecidos, teniendo en cuenta los límites de confianza que corresponden al 95 % y para su detección desde una unidad formadora de colonia o un microorganismo en 100 cm de muestra.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-10(data-aos="fade-right")
+        .titulo-sexto.color-primario.mb-1
+          p.titulo.pb-0.mb-0 #[b Tabla 9.] #[i Características microbiológicas] 
+        .tabla-b.color-acento-contenido
+          table(style="min-width:auto")
+            caption Nota. Adaptado del Ministerio de Salud y de Protección Social y del Ministerio de Ambiente y Desarrollo Sostenible (2007).
+            thead
+              tr.cabecera-a.text-center
+                th Técnicas utilizadas
+                th Coliformes totales
+                th Escherichia coli
+            tbody
+              tr
+                th Filtración por membrana
+                th 0 UFC/100 cm#[sup 3]
+                th 0 UFC/100 cm#[sup 3]
+              tr
+                th Enzima sustrato
+                th < de 1 microorganismo en 100 cm#[sup 3]
+                th < de 1 microorganismo en 100 cm#[sup 3]
+              tr
+                th Sustrato definido
+                th 0 microorganismo en 100 cm#[sup 3]
+                th 0 microorganismo en 100 cm#[sup 3]
+              tr
+                th Presencia - ausencia 
+                th Ausencia en 100 cm#[sup 3]
+                th Ausencia en 100 cm#[sup 3]
+
+    .row.tarjeta.color-acento-botones.p-4.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
+      .col-md-4.col-lg-3.col-12
+        img(src='@/assets/curso/temas/tema1/tema1-29.svg' alt='')
+      .col-md-8.col-lg-9.col-12
+        p Los productores avícolas deben tener en cuenta los anteriores parámetros emitidos por la Resolución 2115 para el análisis de los resultados de las pruebas de laboratorio y así determinar la calidad del agua que suministran en sus granjas y realizar los correctivos pertinentes para mejorar las condiciones del agua que consumen las aves.
+
+    .tarjeta.color-primario.basico.p-3.mb-5(data-aos="fade-down")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/componentes/link.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-1 Calidad del agua
+              p.text-small Para continuar profundizando en el tema revise el documento “Calidad del agua”, ingresando al siguiente enlace: 
+            .col-sm-auto
+              a.boton.color-acento-botones.texto-negro(href="https://repositorio.sena.edu.co/sitios/calidad_del_agua/pdf/Calidad_del_agua.pdf" target="_blank")
+                span Ir al sitio web
+                i.fas.fa-link
+
 </template>
 
 <script>
