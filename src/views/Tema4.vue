@@ -125,7 +125,7 @@
       .col-md-8.col-lg-9.col-12
         p.texto-negro.mb-0 El correcto registro de la información de los movimientos y acontecimientos que ocurren diariamente en la granja avícola permiten medir, reportar y comparar el comportamiento de lotes y de la granja en general.
 
-    p.mb-5(data-aos="fade-down") Las siguientes tablas son ejemplos de formatos para el registro de información relacionada con el programa de bioseguridad en granjas avícolas.  El diseño de los formatos está a discrecionalidad de la empresa avícola teniendo en cuenta su tamaño podrán elaborarse mediante hojas de cálculo, papel o software disponible en el mercado o creado exclusivamente para la explotación avícola.
+    p.mb-5(data-aos="fade-down") Las siguientes tablas son ejemplos de formatos para el registro de información relacionada con el programa de bioseguridad en granjas avícolas.  El diseño de los formatos está a discrecionalidad de la empresa avícola teniendo en cuenta su tamaño podrán elaborarse mediante hojas de cálculo, papel o #[em software] disponible en el mercado o creado exclusivamente para la explotación avícola.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-11(data-aos="fade-right")
