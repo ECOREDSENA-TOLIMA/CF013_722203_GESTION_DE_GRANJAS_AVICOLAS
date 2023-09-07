@@ -144,7 +144,7 @@
     p.mb-5(data-aos="fade-down") Para los residuos peligrosos requieren un manejo especial, y en el siguiente recurso de aprendizaje se mencionan aspectos a considerar:
 
     .titulo-segundo.color-secundario(data-aos="fade-right")
-      h2 Residuos Peligrosos
+      h2 Residuos peligrosos
     
     .row.tarjeta.color-primario.p-4.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-md-4.col-12
@@ -289,7 +289,7 @@
         p.mb-0 Las excretas son retiradas mediante bandas trasportadoras a un pozo de recolección y de allí por medio de bombas son enviadas a los vehículos, que las transportan a la planta de compostaje.
       div.text-start
         h4 Distribución
-        p.mb-0 La gallinaza es descargada en la planta de procesamiento para disminuir la humedad que contiene, en este momento se realiza la adición de material carbonado (viruta de madera, cascarilla de arroz, aserrín, residuos de cosecha, etc.), con este proceso se busca lograr una humedad del 60% del material.
+        p.mb-0 La gallinaza es descargada en la planta de procesamiento para disminuir la humedad que contiene, en este momento se realiza la adición de material carbonado (viruta de madera, cascarilla de arroz, aserrín, residuos de cosecha, etc.), con este proceso se busca lograr una humedad del 60 % del material.
       div
         h4 Aireación y volteo
         p.mb-0 El material ingresa al área de aireación donde se forman pilas y mediante cargadores o maquinaria especializada para esta labor realizan la aireación y el volteo del material, para lograr el proceso de deshidratación de la gallinaza. Los volveos del material dependen de los volúmenes que se manejen, peso, densidad la humedad, pueden ser 1 o 2 días. El proceso dará como resultado abono orgánico seco, parejo y sin olor.
