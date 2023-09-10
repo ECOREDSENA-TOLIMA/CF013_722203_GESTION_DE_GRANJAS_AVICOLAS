@@ -332,12 +332,12 @@ export default {
     },
   ],
   referencias: [
-    {
-      referencia:
-        'Academia Nacional de Ciencias. (2017). Sistemas de filtración. Página web koshland. ',
-      link:
-        'https://www.koshland-science-museum.org/water/html/es/Treatment/Filtration-Systems.html',
-    },
+    // {
+    //   referencia:
+    //     'Academia Nacional de Ciencias. (2017). Sistemas de filtración. Página web koshland. ',
+    //   link:
+    //     'https://www.koshland-science-museum.org/water/html/es/Treatment/Filtration-Systems.html',
+    // },
     {
       referencia:
         'Andia, Y. (2020). Tratamiento de agua. Coagulación y floculación. Página web ingenieroambiental. ',
@@ -395,23 +395,25 @@ export default {
     {
       referencia:
         'Ministerio de Ambiente y Desarrollo Sostenible. (2021). <em>Todo lo que deben saber los colombianos sobre el nuevo código de colores para la separación de residuos que empieza a regir a partir del 1° de enero de 2021.</em> Minambiente. ',
-      link: 'https://www.minambiente.gov.co/images/CODIGO_COLORES_VFF.pdf',
+      link:
+        'https://www.minambiente.gov.co/asuntos-ambientales-sectorial-y-urbana/colombia-iniciara-el-2021-con-nuevo-codigo-de-colores-para-la-separacion-de-residuos/',
     },
     {
       referencia:
         'Ministerio de Salud y Protección Social y Ministerio de Ambiente y Desarrollo Sostenible. (2007). Resolución 2115. Minambiente. ',
       link:
-        'https://www.minambiente.gov.co/images/GestionIntegraldelRecursoHidrico/pdf/Legislaci%C3%B3n_del_agua/Resoluci%C3%B3n_2115.pdf',
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resoluci%C3%B3n_2115_de_2007.pdf',
     },
     {
       referencia:
         'Perez, L. (2005). <em>Teoría de la sedimentación.</em> UBA. ',
-      link: 'http://www.fi.uba.ar/archivos/institutos_teoria_sedimentacion.pdf',
+      link:
+        'https://cms.fi.uba.ar/uploads/institutos_teoria_sedimentacion_8d6be3a941.pdf',
     },
     {
       referencia:
         'SENA, CANG, OEI. (2015). <em>Memorias seminario actualización en avicultura.</em> SENA, CANG, OEI. Timsa Técnicas e ingeniería de mezclas. (2021). <em>Tratamiento de agua.</em> Timsa. ',
-      link: 'https://www.timsa.com/coagulacion-floculacion-agua/',
+      // link: 'https://www.timsa.com/coagulacion-floculacion-agua/',
     },
   ],
   creditos: [
