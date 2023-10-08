@@ -71,7 +71,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-md-7.col-12
-        p Las resoluciones ICA para la certificación de granjas bioseguras 3650, 3651 y 365 indican que las explotaciones avícolas deben establecer y ejecutar el programa de manejo integral de residuos, que contempla las actividades de separación en la fuente, que optimice su aprovechamiento dentro de la granja o en otros procesos de la producción. Los programas establecidos por la organización estarán en concordancia con la normatividad ambiental vigente.
+        p Las resoluciones ICA para la certificación de granjas bioseguras 3650, 3651 y 3652 indican que las explotaciones avícolas deben establecer y ejecutar el programa de manejo integral de residuos, que contempla las actividades de separación en la fuente, que optimice su aprovechamiento dentro de la granja o en otros procesos de la producción. Los programas establecidos por la organización estarán en concordancia con la normatividad ambiental vigente.
         p Los programas, procedimientos y protocolos implementados en las granjas avícolas deben contener la información necesaria de manera clara y precisa para la disposición de los residuos por parte de los operarios y/o trabajadores de la granja.
         p Los generadores de residuos ordinarios de acuerdo con Fenavi (2018) tienen la responsabilidad de cumplir con lo siguiente:
       .col-md-5.col-12
@@ -237,7 +237,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-24.png')})`}"
       )
-      .bloque-texto-g__texto.text-small.p-4
+      .bloque-texto-g__texto.p-4
         p.mb-0 En cuanto a los residuos orgánicos generados en las explotaciones avícolas Fenavi (2018), lo define como los residuos “que tienen su origen en materiales biológicos (vivos), por lo que su descomposición es más sencilla para el ambiente” (p.2), en las explotaciones avícolas los principales residuos orgánicos que se generan son la gallinaza y/o pollinaza y la mortalidad, su manejo y disposición deben cumplir con lo establecido en la normatividad vigente del Instituto Colombiano Agropecuario - ICA y de las Corporaciones Autónomas Regionales con jurisdicción en la zona donde está ubicada la granja.
           br
           br 
@@ -420,22 +420,22 @@
 
     .tarjeta.color-acento-botones.p-4.mb-4(data-aos="fade-down")
       PasosB.color-acento-contenido
-        .row
+        .row.col-ipad
           .col-12.mb-4.mb-md-0
             p Disminuir uniformemente una primera capa de 25 a 30 cm de pollinaza / gallinaza amedada con material vegetal.
-        .row
+        .row.col-ipad
           .col-12.mb-4.mb-md-0
             p Abrir el ave en la zona abdominal e introducir sus patas.
-        .row
+        .row.col-ipad
           .col-12.mb-4.mb-md-0
             p Ubicarlas sobre la capa conformada con una distancia de 12 a 15 cm de cada pared del cajón e intercalando cabeza y cola para optimizar el espacio.
-        .row
+        .row.col-ipad
           .col-12.mb-4.mb-md-0
             p Humedecer los cadáveres rociándolos hasta alcanzar una humedad del 60 % y nunca empapar el material (encharcar).
-        .row
+        .row.col-ipad
           .col-12.mb-4.mb-md-0
             p Cubrir las aves totalmente con pollinaza / gallinaza, iniciando por el sellamiento de los espacios entre ellas.
-        .row
+        .row.col-ipad
           .col-12.mb-4.mb-md-0
             p Una vez se complete la última capa de disposición de mortalidad se deben cubrir las aves completamente.
 
@@ -443,19 +443,19 @@
 
     .tarjeta.color-acento-botones.p-4.mb-4(data-aos="fade-down")
       PasosB.color-acento-contenido
-        .row
+        .row.col-ipad
           .col-12.mb-4.mb-md-0
             p Tras 30 días se debe desarmar el cajón, retirar el material para picar los restos y palearlo.
-        .row
+        .row.col-ipad
           .col-12.mb-4.mb-md-0
             p Verificar las condiciones de humedad mediante la prueba de puño. Según la observación se decidirá si es necesario agregar más agua hasta alcanzar el 60 % de humedad o si se requiere palear e incluir material seco.
-        .row
+        .row.col-ipad
           .col-12.mb-4.mb-md-0
             p Ingresar el material nuevamente al cajón (ya sea uno contiguo o el mismo), y cubrir completamente el material con gallinaza o pollinaza.
-        .row
+        .row.col-ipad
           .col-12.mb-4.mb-md-0
             p Desde este momento se contarán 30 días más para el retiro del material (fase 2).
-        .row
+        .row.col-ipad
           .col-12.mb-4.mb-md-0
             p Al cumplir con el tiempo se extrae el material y se cierne empleando un tamizador.
 

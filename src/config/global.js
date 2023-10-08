@@ -29,7 +29,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Calidad del agua potable',
+            titulo: 'Fuentes',
             hash: 't_1_1',
           },
           {
@@ -359,11 +359,11 @@ export default {
       link:
         'https://fenavi.org/publicaciones-programa-tecnico/bioseguridad-en-la-industria-avicola/#bioseguridad-en-la-industria-avicola/1',
     },
-    {
-      referencia:
-        'Fenavi - Fonav. (2018). <em>Gestión del recurso hídrico en granjas avícolas.</em> Fenavi. ',
-      link: 'https://fenavi.org/etiquetas/recurso-hidrico/',
-    },
+    // {
+    //   referencia:
+    //     'Fenavi - Fonav. (2018). <em>Gestión del recurso hídrico en granjas avícolas.</em> Fenavi. ',
+    //   link: 'https://fenavi.org/etiquetas/recurso-hidrico/',
+    // },
     {
       referencia:
         'Fenavi. (2018). <em>Guía rápida consideraciones técnicas para gestión integral del recurso hídrico en granjas avícolas.</em> Fenavi. ',

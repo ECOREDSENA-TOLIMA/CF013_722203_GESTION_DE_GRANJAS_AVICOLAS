@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Síntesis del componente formativo Protocolos de bioseguridad y control de actividades anexas de producción, que abarca temas relacionados al manejo de la bioseguridad en avicultura.")
+          img(src="@/assets/curso/temas/sintesis.png", alt="Síntesis. Protocolos de bioseguridad y control de actividades anexas de producción basada en la implementación de condiciones bioseguras en la explotación pecuaria.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

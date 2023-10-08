@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Protocolos de bioseguridad y control de actividades anexas de producción
-        p.mb-4 #[b Objetivo:] afianzar algunos de los conceptos sobre las condiciones bioseguras en la explotación pecuaria del componente formativo: protocolos de bioseguridad y control de actividades anexas de producción.
+        p.mb-4 #[b Objetivo:] afianzar algunos de los conceptos sobre las condiciones bioseguras en la explotación avícola del componente formativo: protocolos de bioseguridad y control de actividades anexas de producción.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

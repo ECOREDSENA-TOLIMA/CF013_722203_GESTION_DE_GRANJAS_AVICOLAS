@@ -79,7 +79,7 @@
         p Las fuentes de agua en el planeta son definidos por la Agencia de protección ambiental de Estados Unidos (2021) como “agua de origen (como ríos, arroyos, lagos, embalses, manantiales y aguas subterráneas) que proporciona agua a los suministros públicos de agua potable y a los pozos privados”. Igualmente se pueden definir las fuentes hídricas como las corrientes de agua ubicadas superficialmente o subterránea que pueden ser utilizadas para el consumo de los seres humanos, animales y plantas;  a partir de lo anterior, es importante conocer que las explotaciones avícolas requieren la provisión de agua, cumpliendo dos principios, cantidad y calidad, para ser suministradas a las aves y empleada para el consumo humano, teniendo en cuenta que su consumo es alto y se debe asegurar que esté siempre disponible.
 
     .cajon-b.color-acento-botones.p-3.mb-4(data-aos="fade-down")
-      p.mb-4 En el siguiente recurso de aprendizaje se presentan las principales fuentes de agua empleadas por los avicultores para obtener este recurso del medio ambiente:
+      p.mb-4 A continuación, se presentan las principales fuentes de agua empleadas por los avicultores para obtener este recurso del medio ambiente:
 
     .tarjeta.color-primario.p-4.mb-5(data-aos="fade-down-left") 
       SlyderA(tipo="b")
@@ -238,7 +238,7 @@
           .h4.text-center.mb-0 Muestra integrada
 
     .cajon.color-primario.p-4.mb-5(data-aos="fade-down-left")
-      p.mb-0 Respecto a los análisis fisicoquímicos Fenavi - Fonav (2018) afirma que mediante este tipo de prueba se busca determinar “la presencia de sustancias orgánicas e inorgánicas que puedan producir efectos nocivos sobre los humanos y las aves, o que alteren la eficiencia de los diferentes procesos realizados en la granja. Paralelamente, permite determinar las condiciones organolépticas” (p. 9), este tipo de muestras se toman en frascos de vidrio o plásticos de boca ancha, previamente lavados y con capacidad de 2 litros, se tendrá en cuenta el sitio donde se tome la muestra de acuerdo con el tipo de fuente y los frascos se llenan completamente para evitar la presencia de burbujas que alteren el resultado de la prueba.
+      p.mb-0 Respecto a los análisis fisicoquímicos, Fenavi - Fonav (2018) afirma que mediante este tipo de prueba se busca determinar “la presencia de sustancias orgánicas e inorgánicas que puedan producir efectos nocivos sobre los humanos y las aves, o que alteren la eficiencia de los diferentes procesos realizados en la granja. Paralelamente, permite determinar las condiciones organolépticas” (p. 9), este tipo de muestras se toman en frascos de vidrio o plásticos de boca ancha, previamente lavados y con capacidad de 2 litros, se tendrá en cuenta el sitio donde se tome la muestra de acuerdo con el tipo de fuente y los frascos se llenan completamente para evitar la presencia de burbujas que alteren el resultado de la prueba.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down-right")
       .col-md-3.col-lg-2.col-12
@@ -254,7 +254,7 @@
         .titulo-sexto.color-primario
           p.titulo.pb-0.mb-0 #[b Figura 2.] #[i Recipientes para la toma de muestras de análisis fisicoquímicos y microbiológicos] 
         figure
-          img(src='@/assets/curso/temas/tema1/tema1-24.svg', alt='Recipiente de 1000 ml de plástico o vidrio para los parámetros de DBO5, sólidos disueltos totales, turbiedad, nitratos, PH y fosfatos. Recipiente de 250 ml de plástico o vidrio para la DQO. Recipiente de 100 ml de vidrio, para el análisis de coliformes fecales. Recipiente Winkler, para el análisis de oxígeno disuelto.')  
+          img(src='@/assets/curso/temas/tema1/tema1-24.png', alt='Recipiente de 1000 ml de plástico o vidrio para los parámetros de DBO5, sólidos disueltos totales, turbiedad, nitratos, PH y fosfatos. Recipiente de 250 ml de plástico o vidrio para la DQO. Recipiente de 100 ml de vidrio, para el análisis de coliformes fecales. Recipiente Winkler, para el análisis de oxígeno disuelto.')  
           figcaption.mt-2 Nota. Tomado de Hernández Pérez (2021).
 
     p.mb-5(data-aos="fade-down") A continuación, se describen los requerimientos de envase, cantidad de muestra y recomendaciones para la toma de muestra.
@@ -271,8 +271,8 @@
               tr.cabecera-a.text-center
                 th(style="width:18%") Tipo de análisis 
                 th Recipiente 
-                th(style="width:20%") PEPS  
-                th Promedio ponderado  
+                th(style="width:20%") Cantidad de muestra  
+                th Recomendaciones
             tbody
               tr
                 th Fisicoquímico
@@ -366,11 +366,11 @@
       div.text-start
         p #[b Floculación:] es descrita por Andia (2020) como el proceso que consiste en “la agitación de la masa coagulada que sirve para permitir el crecimiento y aglomeración de los flósculos recién formados con la finalidad de aumentar el tamaño y peso necesario para sedimentar con facilidad” (p.33), la floculación es la siguiente fase para el tratamiento del agua, cuyo propósito es lograr que las partículas suspendidas en el agua se junten y se puedan sedimentar.
       div
-        p #[b Sedimentación:] es la tercera fase empleada en las granjas avícolas para el tratamiento del agua, de acuerdo con Pérez (2005) la define como “el proceso natural por el cual las partículas más pesadas del agua que se encuentra en su seno en suspensión, son removidas por la acción de la gravedad” (p.2), es decir, todas las partículas que estén suspendidas en el agua ha potabilizar serán llevadas al fondo del tanque o reservorio  por el efecto de la gravedad al ser más pesadas que el agua, permitiendo de esta forma separar las impurezas y removerlas.
+        p #[b Sedimentación:] es la tercera fase empleada en las granjas avícolas para el tratamiento del agua, de acuerdo con Pérez (2005) la define como “el proceso natural por el cual las partículas más pesadas del agua que se encuentra en su seno en suspensión, son removidas por la acción de la gravedad” (p.2), es decir, todas las partículas que estén suspendidas en el agua a potabilizar serán llevadas al fondo del tanque o reservorio  por el efecto de la gravedad al ser más pesadas que el agua, permitiendo de esta forma separar las impurezas y removerlas.
       div.text-start
         p #[b Filtración:] se utiliza para eliminar las partículas que no se sedimentaron, al respecto la Academia Nacional de Ciencias (2017), afirma que los sistemas de filtración “tratan el agua pasándola a través de lechos de materiales granulares (por ejemplo, arena) que retira y retiene contaminantes”. Además, este proceso puede ayudar a la eliminación de bacterias, virus y protozoos.
       div
-        p #[b Desinfección:] en esta etapa se aplica un desinfectante que cumpla con unas características especiales relacionadas con su efectividad como bactericida, no debe afectar las propiedades organolépticas del agua, es de fácil efectividad para eliminar el biofilm; el desinfectante que es más empleado en las granjas avícolas para el tratamiento del agua es el cloro (hipoclorito de sodio), el cual debe ser dosificado de acuerdo con el volumen del agua a tratar y su concentración.
+        p #[b Desinfección:] en esta etapa se aplica un desinfectante que cumpla con unas características especiales relacionadas con su efectividad como bactericida, no debe afectar las propiedades organolépticas del agua, es de fácil efectividad para eliminar el #[em biofilm]; el desinfectante que es más empleado en las granjas avícolas para el tratamiento del agua es el cloro (hipoclorito de sodio), el cual debe ser dosificado de acuerdo con el volumen del agua a tratar y su concentración.
 
     p(data-aos="fade-down") A continuación, se presenta un ejemplo:
     p.mb-5(data-aos="fade-down") Se requiere la desinfección de 3.000 litros de agua, se cuenta con hipoclorito de sodio líquido al 12 %, y de acuerdo con las recomendaciones del fabricante se deben emplear 5 ppm. Para realizar el cálculo se emplea la siguiente fórmula:
@@ -425,7 +425,7 @@
         img(src='@/assets/curso/temas/tema1/tema1-27.png' alt='')
       .col-md-8.col-lg-9.col-12
         p Cada una de las actividades establecidas en los Procedimientos Operativos Estandarizados (POE), diseñados para el tratamiento del agua en las explotaciones avícolas, deben estar de acuerdo con lo establecido en los protocolos de la organización y registrados en los formatos diseñados para tal propósito. La información sobre las actividades de desinfección y tratamiento del agua deben realizarse y registrarse en el momento que se realicen, con la información recolectada le permite al productor realizar la toma de decisiones y ajustes a que tenga lugar de acuerdo con las circunstancias que se estén presentando en la explotación avícola, los registros son un apoyo de gran valor para el correcto funcionamiento de la granja.
-        p De acuerdo con las resoluciones de bioseguridad para las granjas avícolas los formatos requieren contener los siguientes ítems:
+        p De acuerdo con las resoluciones de bioseguridad para las granjas avícolas, los formatos requieren contener los siguientes ítems:
 
     .tarjeta.color-acento-botones.p-4.mb-5(data-aos="fade-down")
       .row.justify-content-center.align-items-center
@@ -610,7 +610,7 @@
                 i.fas.fa-file-download
 
     p.mb-3(data-aos="fade-down") En el análisis fisicoquímico Fenavi (2018), destaca los parámetros que se buscan en este tipo de pruebas para medirlas como “turbidez, color, olor y pH del agua, permitiendo identificar elementos que puedan perjudicar el rendimiento zootécnico de las aves” (p.6).
-    p.mb-5(data-aos="fade-down") En la siguiente imagen interactiva se describen los principales elementos que se deben analizar en las pruebas fisicoquímicas y su efecto en las aves:
+    p.mb-5(data-aos="fade-down") A continuación, se describen los principales elementos que se deben analizar en las pruebas fisicoquímicas y su efecto en las aves:
 
     .h4.text-center.mb-4(data-aos="fade-down") Elementos fisicoquímicos para el análisis del agua y su efecto en las aves
 
@@ -629,7 +629,7 @@
         p Efecto laxante y mala conversión alimenticia.
       .tarjeta.color-primario.basico.p-3(x="50%" y="58%" numero="4")
         h4 pH alto
-        p Debilita el efecto del cloro y predispone la presencia de biofilm en las conducciones.
+        p Debilita el efecto del cloro y predispone la presencia de #[em biofilm] en las conducciones.
       .tarjeta.color-primario.basico.p-3(x="85%" y="25%" numero="5")
         h4 Dureza
         p Representa la presencia de sales de calcio y magnesio, a pesar de que no afecta la salud de las aves. Cuando se presentan niveles altos puede interferir con la eficacia de los tratamientos con antibióticos; además, puede causar obstrucción de las tuberías de los bebederos e inhibir la acción de detergentes que se utilizan en labores de limpieza.
@@ -868,7 +868,7 @@
     .tarjeta.color-primario.basico.p-3.mb-5(data-aos="fade-down")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/link.svg")
+          img(src="@/assets/componentes/descargar.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -876,8 +876,8 @@
               p.text-small Para continuar profundizando en el tema revise el documento “Calidad del agua”, ingresando al siguiente enlace: 
             .col-sm-auto
               a.boton.color-acento-botones.texto-negro(href="https://repositorio.sena.edu.co/sitios/calidad_del_agua/pdf/Calidad_del_agua.pdf" target="_blank")
-                span Ir al sitio web
-                i.fas.fa-link
+                span Descargar
+                i.fas.fa-file-download
 
 </template>
 

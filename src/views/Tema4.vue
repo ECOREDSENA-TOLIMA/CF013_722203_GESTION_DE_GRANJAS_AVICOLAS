@@ -74,7 +74,7 @@
               img(src='@/assets/curso/temas/tema4/tema4-3.png', alt='')
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p #[b Manejo y disposición final de la mortalidad:] describe el tipo de manejo que se hace, periodicidad y el destino final. Si hay compostaje incluir la información sobre el número de cajón, número de aves muertas por día, fecha de llenado del cajón, fecha de volteo, fecha de retiro del compost, número de aves por día total de bultos de compost producidos.
+            p #[b Manejo y disposición final de la mortalidad:] describe el tipo de manejo que se hace, periodicidad y el destino final. Si hay compostaje incluir la información sobre el número de cajón, número de aves muertas por día, fecha de llenado del cajón, fecha de volteo, fecha de retiro del #[em compost], número de aves por día total de bultos de #[em compost] producidos.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema4/tema4-4.png', alt='')
